@@ -1,0 +1,46 @@
+composition:
+  _name: Home
+  _id: c7831905-e8b8-4002-b127-1281326079c4
+  _slug: /
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Home Page
+    pageMetaDescription:
+      type: text
+      value: Baseline Home Page
+  slots:
+    content:
+      - _id: ff573aa1-3d29-4d28-a607-8397c34bf4b3
+        type: hero
+        variant: ''
+        parameters:
+          content:
+            type: contentfulEntry
+            value:
+              source: default
+              entryId: 62idtt9VcaVLPwBps1Zqk8
+      - _id: fdaed343-768d-466d-8f63-821e92375a94
+        type: callToAction
+        parameters:
+          content:
+            type: contentfulEntry
+            value:
+              source: default
+              entryId: 5jLebPQsniyCJWMtLTZlxK
+      - _id: 46cfcc47-2cc4-417d-94a6-a6beaa23628d
+        type: featuredCallout
+        variant: left
+        parameters:
+          content:
+            type: contentfulEntry
+            value:
+              source: default
+              entryId: 3o0BreZJBs7k8Vf4kOMHqT
+          paddingTop:
+            type: select
+            value: None
+created: '2023-02-21T11:21:17.758733+00:00'
+modified: '2023-03-16T11:13:28.12938+00:00'
+pattern: false
